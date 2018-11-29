@@ -11,7 +11,10 @@
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
+                        <div class="text-center m-2">user1@ggallery.it / user2@ggallery.it</div>
+
                         <div class="form-group row">
+
                             <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">

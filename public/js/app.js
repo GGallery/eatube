@@ -41138,7 +41138,7 @@ var App = function (_Component) {
 
                 peer.signal(signal.data);
             });
-            console.log('setupPusher ->' + this.user.id);
+            console.log('setupPusher  ->' + this.user.id);
         }
     }, {
         key: 'startPeer',
@@ -41164,7 +41164,7 @@ var App = function (_Component) {
 
             peer.on('stream', function (stream) {
                 try {
-                    console.log('>>> STREAM >>>', stream);
+                    console.log('>>>> STREAM >>>>', stream);
                     _this4.userVideo.srcObject = stream;
                 } catch (e) {
                     _this4.userVideo.src = URL.createObjectURL(stream);
@@ -64009,7 +64009,7 @@ function load() {
 
   // If debug isn't set in LS, and we're in Electron, try to load $DEBUG
   if (!r && typeof process !== 'undefined' && 'env' in process) {
-    r = Object({"MIX_PUSHER_APP_CLUSTER":"mt1","MIX_PUSHER_APP_KEY":"","NODE_ENV":"development"}).DEBUG;
+    r = Object({"MIX_PUSHER_APP_CLUSTER":"eu","MIX_PUSHER_APP_KEY":"3c43af19787b93286341","NODE_ENV":"development"}).DEBUG;
   }
 
   return r;

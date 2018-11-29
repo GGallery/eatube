@@ -69,7 +69,7 @@ export default class App extends Component {
 
             peer.signal(signal.data);
         });
-        console.log('setupPusher ->' + this.user.id);
+        console.log('setupPusher  ->' + this.user.id);
 
     }
 
@@ -93,7 +93,7 @@ export default class App extends Component {
 
         peer.on('stream', (stream) => {
             try {
-                console.log('>>> STREAM >>>', stream);
+                console.log('>>>> STREAM >>>>', stream);
                 this.userVideo.srcObject = stream;
             } catch (e) {
                 this.userVideo.src = URL.createObjectURL(stream);
