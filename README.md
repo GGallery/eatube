@@ -1,13 +1,3 @@
-## Video Chat Application Example
-
-[Youtube Tutorial link](https://www.youtube.com/watch?v=5pnsloZzYQM)
-
-#### [@WeCodeTutorials](https://twitter.com/WeCodeTutorials)
-[![Logo](https://cdn.pbrd.co/images/HdwCut8.png)](https://www.youtube.com/channel/UCj9VatwdukZjNOnIKcpWcsA)
-
-#### WebRTC Project
-[![Logo](https://webrtc.org/assets/images/webrtc-logo-horiz-retro-243x40.png)](https://webrtc.org/)
-
 This project is made for my youtube tutorial on "Create a video Chat Application with Laravel & ReactJS (based on WebRTC)".
 
 ## get it up and running.
@@ -43,3 +33,6 @@ npm run watch
 
 ###### PUSHER CONSOLE
 [https://dashboard.pusher.com/apps/660658](https://dashboard.pusher.com/apps/660658) -> GitHub
+
+
+### [Youtube Tutorial link](https://www.youtube.com/watch?v=5pnsloZzYQM)
